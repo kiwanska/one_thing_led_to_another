@@ -1,0 +1,25 @@
+/* line 1, /Users/sobylmine/Wszystko/CODEWORK/one_thing_led_to_another/scss/partials/_content.scss */ * { padding: 0; margin: 0; }
+
+/* line 6, /Users/sobylmine/Wszystko/CODEWORK/one_thing_led_to_another/scss/partials/_content.scss */ body { width: 100vw; height: 80vh; }
+
+/* line 12, /Users/sobylmine/Wszystko/CODEWORK/one_thing_led_to_another/scss/partials/_content.scss */ .container { width: 80%; min-height: 80%; text-align: center; margin: 10%; padding: 3%; box-sizing: border-box; background-color: white; }
+
+/* line 22, /Users/sobylmine/Wszystko/CODEWORK/one_thing_led_to_another/scss/partials/_content.scss */ h1 { font-family: "Work Sans", sans-serif; font-weight: 200; font-size: 2.5em; }
+
+/* line 29, /Users/sobylmine/Wszystko/CODEWORK/one_thing_led_to_another/scss/partials/_content.scss */ h2 { font-family: "Archivo Narrow", sans-serif; margin-top: 5vh; font-weight: 300; font-size: 1.2em; }
+
+/* line 36, /Users/sobylmine/Wszystko/CODEWORK/one_thing_led_to_another/scss/partials/_content.scss */ p { font-family: "Work Sans", sans-serif; width: 80%; margin: 0 auto; margin-top: 6vh; font-weight: 300; }
+
+/* line 42, /Users/sobylmine/Wszystko/CODEWORK/one_thing_led_to_another/scss/partials/_content.scss */ p a { margin: 0; font-family: inherit; }
+
+/* line 49, /Users/sobylmine/Wszystko/CODEWORK/one_thing_led_to_another/scss/partials/_content.scss */ a { font-family: "Archivo Narrow", sans-serif; display: inline-block; margin: 1em; }
+
+/* line 55, /Users/sobylmine/Wszystko/CODEWORK/one_thing_led_to_another/scss/partials/_content.scss */ footer p { font-size: .8em; }
+
+@keyframes move { 0% { transform: translate(0, 50px); }
+  50% { transform: translate(20px, 100px); }
+  100% { transform: translate(0, 50px); } }
+
+/* line 8, /Users/sobylmine/Wszystko/CODEWORK/one_thing_led_to_another/scss/partials/_animations.scss */ .spin { animation: spin 40s linear infinite; }
+
+@keyframes spin { 100% { transform: rotate(1turn); } }
